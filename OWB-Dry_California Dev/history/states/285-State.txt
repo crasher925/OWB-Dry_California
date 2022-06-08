@@ -1,0 +1,38 @@
+
+state={
+	id=285
+	name="STATE_285"
+	resources={
+		water=8.000
+		metal=6.000
+		circuitry=6.000
+		composites=6.000
+	}
+
+	history={
+		owner = NEW
+		add_core_of = NEW
+		victory_points = {
+			9139 35 
+		}
+		victory_points = {
+			9130 25 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 1
+
+		}
+
+	}
+
+	provinces={
+		3438 4886 4947 8756 8757 8802 8809 9126 9130 9132 9139 9140 9144 9147 9153 9154 9159 
+	}
+	manpower=72500
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

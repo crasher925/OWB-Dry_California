@@ -1,0 +1,34 @@
+
+state={
+	id=190
+	name="STATE_190"
+	resources={
+		water=2.000
+	}
+
+	history={
+		owner = NCR
+		add_core_of = RDS
+		victory_points = {
+			4848 10 
+		}
+		victory_points = {
+			4740 5 
+		}
+		buildings = {
+			industrial_complex = 2
+			dockyard = 2
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		1053 1056 2300 4615 4616 4739 4740 4741 4742 4762 4763 4766 4843 4846 4847 4848 6664 
+	}
+	manpower=36012
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=584
+	name="STATE_584"
+	resources={
+		water=4.000
+		metal=8.000
+	}
+
+	history={
+		owner = NCR
+		add_core_of = RDS
+		victory_points = {
+			4861 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1100 1656 4800 4801 4842 4861 4863 4864 4865 4866 4888 8373 15405 
+	}
+	manpower=11000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

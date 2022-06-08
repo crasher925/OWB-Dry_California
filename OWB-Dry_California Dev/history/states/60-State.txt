@@ -1,0 +1,31 @@
+
+state={
+	id=60
+	name="STATE_60"
+
+	history={
+		owner = NCR
+		add_core_of = RDS
+		victory_points = {
+			4850 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			1769 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1769 1770 1771 2295 2296 2297 4617 4618 4849 4850 4854 4855 4856 4857 4858 4859 4860 4862 5922 
+	}
+	manpower=15000
+	buildings_max_level_factor=1.000
+	state_category=shanty
+	local_supplies=0.000
+}

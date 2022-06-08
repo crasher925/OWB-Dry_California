@@ -1,0 +1,32 @@
+
+state={
+	id=231
+	name="STATE_231"
+	resources={
+		water=2.000
+		metal=8.000
+	}
+
+	history={
+		owner = MDT
+		add_core_of = MDT
+		victory_points = {
+			4171 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 3
+
+		}
+
+	}
+
+	provinces={
+		1316 2355 2511 2512 2513 4093 4094 4095 4159 4167 4170 4171 4348 5013 5014 
+	}
+	manpower=4000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

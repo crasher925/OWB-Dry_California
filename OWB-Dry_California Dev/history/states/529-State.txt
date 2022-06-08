@@ -1,0 +1,27 @@
+
+state={
+	id=529
+	name="STATE_529"
+
+	history={
+		owner = NCR
+		add_core_of = NCR
+		victory_points = {
+			4737 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		2019 2301 2438 2439 2451 2452 2453 4737 4815 4816 5056 5924 6663 8798 8799 
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=shanty
+	local_supplies=0.000
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=441
+	name="STATE_441"
+	resources={
+		water=6.000
+		energy=2.000
+	}
+
+	history={
+		owner = NAT
+		add_core_of = NAT
+		victory_points = {
+			4895 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		1764 1768 1772 2607 2608 4751 4752 4753 4754 4755 4756 4757 4758 4892 4894 4895 4896 
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

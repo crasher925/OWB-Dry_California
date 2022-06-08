@@ -1,0 +1,33 @@
+
+state={
+	id=369
+	name="STATE_369"
+	resources={
+		metal=6.000
+		water=6.000
+		energy=4.000
+	}
+
+	history={
+		owner = FOU
+		add_core_of = FOU
+		victory_points = {
+			4936 5 
+		}
+		buildings = {
+			industrial_complex = 1
+			arms_factory = 1
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1232 1629 2600 4936 4993 4994 4995 4996 5022 5026 
+	}
+	manpower=8000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

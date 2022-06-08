@@ -1,0 +1,30 @@
+
+state={
+	id=605
+	name="STATE_605"
+
+	history={
+		owner = NCR
+		add_core_of = NCR
+		victory_points = {
+			1776 10 
+		}
+		victory_points = {
+			5017 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1025 1776 1878 2442 2444 2445 2449 2450 4738 4767 4768 4844 4845 5016 5017 8800 8801 15398 15410 15412 
+	}
+	manpower=15000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

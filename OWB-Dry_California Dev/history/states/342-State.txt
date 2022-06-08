@@ -1,0 +1,29 @@
+
+state={
+	id=342
+	name="STATE_342"
+	resources={
+		metal=4.000
+	}
+
+	history={
+		owner = NCR
+		add_core_of = NCR
+		victory_points = {
+			9632 5 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		1777 2069 2446 2448 2609 4941 5066 8744 8745 8746 8747 8749 8751 8753 9632 9634 9635 9636 9637 15399 15403 15404 
+	}
+	manpower=11000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

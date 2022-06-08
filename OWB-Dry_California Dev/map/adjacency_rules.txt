@@ -1,0 +1,388 @@
+#Adjacency rules are special rules for adjacencies
+#If smbd who is at war fights over canal/strait it is considered closed
+#Enemy status is considered if any of sides controlling the chanel is at war with country
+#Friend status is considered non of sides controlling the chanel is at war with country and one of controllers is ally of giving military access
+#Every one else is considered as neutral according to canal/strait
+#Military access considered as being friend
+#Rules needs linking from the straits that are affected by the rule ( adjacency_rule_id )
+#Name is how you refer to the rule in adjecencies.csv
+
+## Naval Canals/Straights
+# Veracruz Canal
+adjacency_rule = {
+	name = "Veracruz Canal"
+	contested = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral = {
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	required_provinces = { 10033 10101 }
+	icon = 10101
+	offset = { -3 0 -6 }
+}
+# Hoover Dam West
+adjacency_rule = {
+	name = "Hoover Dam Western Boatlift"
+	contested = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral = {
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	required_provinces = { 9071 3209 }
+	icon = 9071
+	offset = { 1 0 0 }
+	is_disabled = {
+		tooltip = hoover_western_boatlift_built_trig_tt
+		NOT = { has_global_flag = hoover_western_boatlift_built }
+	}
+}
+# Hoover Dam East
+adjacency_rule = {
+	name = "Hoover Dam Eastern Boatlift"
+	contested = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral = {
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	required_provinces = { 9073 1623 }
+	icon = 1623
+	offset = { -1 0 -1 }
+	is_disabled = {
+		tooltip = hoover_eastern_boatlift_built_trig_tt
+		NOT = { has_global_flag = hoover_eastern_boatlift_built }
+	}
+}
+# San Fran Bay
+adjacency_rule = {
+	name = "San Fransico Bay"
+	contested = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral = {
+		army = no
+		navy = no
+		submarine = yes
+		trade = yes
+	}
+	required_provinces = { 1041 2422 }
+	icon = 2422
+	offset = { -3 0 10 }
+}
+# Carquinez Strait
+adjacency_rule = {
+	name = "Carquinez Strait"
+	contested = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral = {
+		army = no
+		navy = no
+		submarine = yes
+		trade = yes
+	}
+	required_provinces = { 9209 9217 9222 9216 9221 4614 }
+	icon = 9221
+	offset = { -3 0 6 }
+}
+# Oahe Dam Lock
+adjacency_rule = {
+	name = "Oahe Dam Lock"
+	contested = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral = {
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	required_provinces = { 1330 }
+	icon = 1330
+	offset = { 0 0 0 }
+}
+## Map Funkery
+# Order-Sanitizers Subway
+adjacency_rule = {
+	name = "Omaha-Bridgeport Subway"
+	contested = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend = {
+		army = yes
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	neutral = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	required_provinces = { 7400 4444 }
+	icon = 7400
+	offset = { 0 0 0 }
+}
+adjacency_rule =
+{
+	name = "The Royal Manitoba Canal"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+
+	required_provinces = { 14661 14659 }
+
+	icon = 14661
+	offset = { 0 0 0 }
+}
+adjacency_rule =
+{
+	name = "Easterville Crossing"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+
+	required_provinces = { 13323 }
+
+	icon = 13323
+	offset = { 0 0 0 }
+}
+adjacency_rule =
+{
+	name = "Red River Forks"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+
+	required_provinces = { 13121 }
+
+	icon = 13121
+	offset = { 0 0 0 }
+}
+adjacency_rule =
+{
+	name = "Assiniboine Forks"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+
+	required_provinces = { 13122 }
+
+	icon = 13122
+	offset = { 0 0 0 }
+}
