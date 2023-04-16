@@ -3,9 +3,9 @@ state={
 	id=295
 	name="STATE_295"
 	resources={
-		water=4.000
-		metal=4.000
-		energy=4.000
+		water=3.000
+		metal=3.000
+		energy=2.000
 	}
 
 	history={
@@ -25,8 +25,8 @@ state={
 	provinces={
 		2686 2688 2690 3595 3596 3597 4851 8371 8776 8777 8779 8780 
 	}
-	manpower=8000
+	manpower=8295
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=shanty
 	local_supplies=0.000
 }

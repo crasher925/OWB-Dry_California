@@ -1,0 +1,32 @@
+state = {
+	id = 1434
+	name = "STATE_1434"
+	manpower = 14000
+	state_category = town
+
+	resources = {
+		metal = 8
+		energy = 8
+		composites = 4
+	}
+
+	history = {
+		owner = ERB
+		add_core_of = ERB
+		victory_points = {
+			20190 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			8481 = {
+				bunker = 2
+				bunker2 = 1
+			}
+		}
+	}
+
+	provinces = {
+		8806 20190
+	}
+}

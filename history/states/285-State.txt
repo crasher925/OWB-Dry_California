@@ -1,38 +1,37 @@
+state = {
+	id = 285
+	name = "STATE_285"
+	manpower = 72500
+	state_category = megalopolis
 
-state={
-	id=285
-	name="STATE_285"
-	resources={
-		water=8.000
-		metal=6.000
-		circuitry=6.000
-		composites=6.000
+	resources = {
+		water = 6
+		metal = 5
+		circuitry = 4
+		composites = 4
 	}
 
-	history={
+	history = {
 		owner = NEW
 		add_core_of = NEW
 		victory_points = {
-			9139 35 
+			9139 35
 		}
 		victory_points = {
-			9130 25 
+			9130 25
+		}
+		victory_points = {
+			8809 5
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 5
 			arms_factory = 2
-			industrial_complex = 1
+			industrial_complex = 3
 			air_base = 1
-
 		}
-
 	}
 
-	provinces={
-		3438 4886 4947 8756 8757 8802 8809 9126 9130 9132 9139 9140 9144 9147 9153 9154 9159 
+	provinces = {
+		3438 4886 4947 8756 8757 8802 8809 9126 9130 9132 9139 9140 9144 9147 9153 9154 9159 20191
 	}
-	manpower=72500
-	buildings_max_level_factor=1.000
-	state_category=metropolis
-	local_supplies=0.000
 }
